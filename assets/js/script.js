@@ -119,8 +119,9 @@ document.addEventListener("DOMContentLoaded", async function () {
       .attr("class", d.Doping ? "red-shadow" : "green-shadow")
       .html(
         `
-      <span><strong>-Name:</strong>${d.Name}</span>
-      <span><strong>-Nationality:</strong>${d.Nationality}</span>
+        <div class="contenido_tooltip">
+      <span><strong>-Name: </strong>${d.Name}</span>
+      <span><strong>-Nationality: </strong>${d.Nationality}</span>
       <span><strong>-Year:</strong>${d.Year}</span>
       <span><strong>-Time:</strong>${d.Time}</span> 
       ${
@@ -128,6 +129,7 @@ document.addEventListener("DOMContentLoaded", async function () {
           ? `<span><strong>-Doping Allegations 😔:</strong>${d.Doping}</span>`
           : ""
       }
+      </div>
       `
       )
       .style("top", function () {
