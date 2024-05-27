@@ -84,7 +84,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     .attr("x", -5)
     .attr("y", 15)
     .attr("text-anchor", "end")
-    .attr("font-weight", "bold");
+    .attr("font-weight", "bold")
+    .style("font-size", "16px");
 
   firstItemLegend
     .append("rect")
@@ -99,7 +100,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     .attr("x", -5)
     .attr("y", 15)
     .attr("text-anchor", "end")
-    .attr("font-weight", "bold");
+    .attr("font-weight", "bold")
+    .style("font-size", "16px");
 
   secondItemLegend
     .append("rect")
