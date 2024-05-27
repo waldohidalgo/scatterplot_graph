@@ -4,15 +4,18 @@ body {
 }
 .container {
   overflow: auto;
-  display: flex;
 
   @media screen and (min-width: 935px) {
+    display: flex;
     justify-content: center;
   }
 }
 .container_graph {
-  width: fit-content;
+  width: 100%;
   position: relative;
+  @media screen and (min-width: 935px) {
+    width: 935px;
+  }
 }
 #tooltip {
   padding: 5px;
