@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     .attr("width", "270")
     .attr("height", "100")
     .attr("fill", "#D3D3D3")
-    .attr("transform", `translate(-240, -15)`)
+    .attr("transform", `translate(-243, -15)`)
     .attr("stroke", "#000");
 
   const firstItemLegend = legend.append("g");
