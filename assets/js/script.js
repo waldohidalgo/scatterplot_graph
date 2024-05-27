@@ -66,14 +66,6 @@ document.addEventListener("DOMContentLoaded", async function () {
       `translate(${width - margin.right - 20}, ${margin.top})`
     );
 
-  legend
-    .append("rect")
-    .attr("width", "270")
-    .attr("height", "100")
-    .attr("fill", "#D3D3D3")
-    .attr("transform", `translate(-243, -15)`)
-    .attr("stroke", "#000");
-
   const firstItemLegend = legend.append("g");
   const secondItemLegend = legend.append("g");
   secondItemLegend.attr("transform", `translate(0, 50)`);
