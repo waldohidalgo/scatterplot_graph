@@ -1,6 +1,6 @@
 # Scatterplot Graph: Doping in Professional Cycling
 
-Segundo proyecto requisito obligatorio: [**Visualize Data with a Scatterplot Graph**](https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-scatterplot-graph) para obtener la [Data Visualization](https://www.freecodecamp.org/learn/data-visualization/) de freecodecamp.
+Segundo proyecto llamado [**Visualize Data with a Scatterplot Graph**](https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-scatterplot-graph) el cual es requisito obligatorio para obtener la [Data Visualization](https://www.freecodecamp.org/learn/data-visualization/) de freecodecamp.
 
 ## Tabla de Contenidos
 
